@@ -34,7 +34,7 @@ public class CuadradoTest {
         Assert.assertEquals(20, cuadrado.perimetro());
     }
 
-*/
+
 
     @Test
     public void sumarTodasLasAreas(){
@@ -46,4 +46,5 @@ public class CuadradoTest {
 
         Assert.assertEquals(113, cuadrado1.sumarAreas(cuadrados));
     }
+    */
 }
