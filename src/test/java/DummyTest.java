@@ -5,6 +5,7 @@ import org.junit.Test;
  * Created by damian on 26/08/16.
  */
 public class DummyTest {
+
     @Test
     public void dummyTest(){
         Assert.assertTrue(true);
@@ -16,4 +17,6 @@ public class DummyTest {
 
         Assert.assertEquals("hello", d.variable);
     }
+
+
 }
