@@ -41,7 +41,7 @@ public class RectanguloTest {
 
         List<Rectangulo> rectangulos = Arrays.asList(rectangulo1,rectangulo2,rectangulo3);
 
-        Assert.assertEquals(113, rectangulo1.sumarAreas(rectangulos));
+        Assert.assertEquals(113, rectangulo1.sumarAreasDeFiguras(rectangulos));
     }
 
     */

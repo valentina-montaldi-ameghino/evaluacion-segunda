@@ -15,15 +15,15 @@ public class CuadradoTest {
     public void crearCuadrado(){
         Cuadrado cuadrado = new Cuadrado(5);
 
-        Assert.assertEquals(cuadrado.lado, 5);
+        Assert.assertEquals(cuadrado.lado, 5, 0);
     }
-/*
+
 
     @Test
     public void area(){
         Cuadrado cuadrado = new Cuadrado(10);
 
-        Assert.assertEquals(100, cuadrado.area());
+        Assert.assertEquals(100, cuadrado.area(), 0);
     }
 
 
@@ -31,7 +31,7 @@ public class CuadradoTest {
     public void calcularPerimetro(){
         Cuadrado cuadrado = new Cuadrado(5);
 
-        Assert.assertEquals(20, cuadrado.perimetro());
+        Assert.assertEquals(20, cuadrado.perimetro(), 0);
     }
 
 
@@ -44,7 +44,6 @@ public class CuadradoTest {
 
         List<Cuadrado> cuadrados = Arrays.asList(cuadrado1,cuadrado2,cuadrado3);
 
-        Assert.assertEquals(113, cuadrado1.sumarAreas(cuadrados));
+        Assert.assertEquals(113, cuadrado1.sumarAreasDeCuadrados(cuadrados), 0);
     }
-    */
 }
