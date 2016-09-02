@@ -1,48 +1,56 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Created by damian on 26/08/16.
  */
 public class RectanguloTest {
 
-/*
+
     @Test
     public void crearRectangulo(){
         Rectangulo rectangulo = new Rectangulo(5,10);
 
-        Assert.assertEquals(rectangulo.base, 5);
-        Assert.assertEquals(rectangulo.altura, 10);
+        Assert.assertEquals(rectangulo.base, 5,0);
+        Assert.assertEquals(rectangulo.altura, 10,0);
     }
 
 
     @Test
     public void area(){
-        Rectangulo rectangulo = new Rectangulo(10);
+        Rectangulo rectangulo = new Rectangulo(10,30);
 
-        Assert.assertEquals(100, rectangulo.area());
+        Assert.assertEquals(300, rectangulo.area(),0);
     }
 
 
     @Test
     public void calcularPerimetro(){
-        Rectangulo rectangulo = new Rectangulo(5);
+        Rectangulo rectangulo = new Rectangulo(5,12);
 
-        Assert.assertEquals(20, rectangulo.perimetro());
+        Assert.assertEquals(34, rectangulo.perimetro(),0);
     }
 
 
 
     @Test
     public void sumarTodasLasAreas(){
-        Rectangulo rectangulo1 = new Rectangulo(3);
-        Rectangulo rectangulo2 = new Rectangulo(2);
-        Rectangulo rectangulo3 = new Rectangulo(10);
+        Cuadrado c = new Cuadrado(1);
+        Rectangulo rectangulo1 = new Rectangulo(3,2);
+        Rectangulo rectangulo2 = new Rectangulo(2,5);
+        Rectangulo rectangulo3 = new Rectangulo(10,30);
 
-        List<Rectangulo> rectangulos = Arrays.asList(rectangulo1,rectangulo2,rectangulo3);
+        List<Figura> rectangulos = new ArrayList<Figura>();
+        rectangulos.add(rectangulo1);
+        rectangulos.add(rectangulo2);
+        rectangulos.add(rectangulo3);
 
-        Assert.assertEquals(113, rectangulo1.sumarAreasDeFiguras(rectangulos));
+        Assert.assertEquals(316, c.sumarAreasDeFiguras(rectangulos),0);
     }
 
-    */
+
 }
