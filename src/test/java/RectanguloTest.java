@@ -1,14 +1,15 @@
+package test.java;
+
+import main.java.Rectangulo;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created by damian on 26/08/16.
  */
+
 public class RectanguloTest {
+
 
 
     @Test
@@ -36,7 +37,7 @@ public class RectanguloTest {
     }
 
 
-
+/*
     @Test
     public void sumarTodasLasAreas(){
         Cuadrado c = new Cuadrado(1);
@@ -50,7 +51,9 @@ public class RectanguloTest {
         rectangulos.add(rectangulo3);
 
         Assert.assertEquals(316, c.sumarAreasDeFiguras(rectangulos),0);
-    }
+    }*/
+
+
 
 
 }
